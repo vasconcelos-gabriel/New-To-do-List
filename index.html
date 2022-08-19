@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/d9c868daae.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/scripts.js defer"></script>
+    <script src="js/scripts.js" defer></script>
   </head>
   <body>
     <div class="todo-container">
@@ -30,7 +30,7 @@
           </button>
         </div>
       </form>
-      <form id="edit-form">
+      <form id="edit-form" class="hide">
         <p>Edite a sua tarefa:</p>
         <div class="form-control">
           <input type="text" id="edit-input">
@@ -59,6 +59,32 @@
             <option value="done">Feitos</option>
             <option value="todo">A Fazer</option>
           </select>
+        </div>
+      </div>
+      <div id="todo-list">
+        <div class="todo done">
+          <h3>Estou fazendo alguma coisa...</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="edit-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="delete-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <h3>Estou fazendo alguma coisa...</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="edit-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="delete-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
         </div>
       </div>
     </div>
