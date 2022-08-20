@@ -9,17 +9,13 @@
 }
 
 body {
-  background: linear-gradient(
-    90deg,
-    rgb(138, 36, 197) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(to right, #4539c2, #1a156b);
 }
 
 button {
   background-color: #fdfdfd;
-  color: #102f5e;
-  border: 2px solid #102f5e;
+  color: #1e0383;
+  border: 2px solid #1e0383;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -27,9 +23,10 @@ button {
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+  border-radius: 7px;
 }
 button:hover {
-  background-color: #102f5e;
+  background-color: #1e0383;
   color: white;
 }
 button:hover > i {
@@ -37,7 +34,7 @@ button:hover > i {
 }
 
 button i {
-  color: #102f5e;
+  color: #1e0383;
   font-weight: bold;
   pointer-events: none;
 }
@@ -59,6 +56,20 @@ select {
   background-color: #fdfdfd;
   padding: 1.5rem;
   border-radius: 5px;
+  
+
+
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(250, 248, 248, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+
+
 }
 
 .todo-container header {
@@ -154,7 +165,7 @@ select {
 }
 
 .done{
-  background-color: #395169;
+  background-color: #2804ae;
 }
 
 .done h3{
